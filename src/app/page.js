@@ -1,5 +1,5 @@
-import Image from "next/image";
+import BentoGridDemo from "@/components/example/bento-grid-demo";
 
 export default function Home() {
-  return (<h1 className="text-3xl font-bold underline">Hello, world!</h1>)
+  return (BentoGridDemo())
 }
